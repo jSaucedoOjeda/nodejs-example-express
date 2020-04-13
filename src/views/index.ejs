@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+    <%if (entries.length) { %>
+        <div class="col-md-4 offset-md-4">
+            <% entries.forEach(function (entry) { %>
+                <div class="card my-3">
+                    <div class="card-header bg-secondary text-white">
+                        <p><%= entry.published %></p>
+                    </div>
+                    <div class="card-body">
+                        <h1><%= entry.title %></h1>
+                        <p><%= entry.body %></p>
+                    </div>
+                </div>
+            <% }) %>
+            </div>
+    <%} else {%>
+        <p>No entries! <a href="/new-entry">Add One!</a></p>
+    <% } %>
+<%- include('partials/footer') %>

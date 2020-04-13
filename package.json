@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-example-express",
+  "version": "1.0.0",
+  "description": "Easy Nodejs example with express just for practice",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jSaucedoOjeda/nodejs-example-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jSaucedoOjeda/nodejs-example-express/issues"
+  },
+  "homepage": "https://github.com/jSaucedoOjeda/nodejs-example-express#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3"
+  }
+}
